@@ -159,14 +159,18 @@ margin-right: 0.3em;
 /* Collection */
 .Collation{
      width: 100%;
-     padding: 1em;
+     padding:0 0 0 1em ;
      display: grid;
+      grid-template-rows: 15em 20em ;
+      grid-template-columns: 50% 45%;
+     gap: 1.5em 2.5em;
 }
-.col-item{
-    width: 45%;
-    height: 30em;
+ .col-item{
     border-radius:0.5em;
      position: relative;
+     grid-row:1/3;
+     grid-column: span 1;
+
 }
 .col-item img{
 width: 100%;
@@ -210,7 +214,70 @@ aspect-ratio: 2/1;
      padding: 0 3em 0.7em 0;
      border-radius: 0 50px 50px 0;
 }
+.card{
+     width: 6em;
+     height: 5.5em;
+     position: absolute;
+     bottom: -0.2em;
+     right: 0;
+     padding: 0.5em 0 0 0.5em;
+     border-radius: 1em 0 0 0;
+     border: none;
+}
+.card span{
+     background-color: #000;
+     border-radius: 1em;
+     
+}
+.arrow{
+     padding: 1.1em 1.4em;
+     text-align: center;
+     font-size: 1.5em;
+     color: #fff;
+    transform: rotate(-45deg);
+     color: var(--font-cool);
+}
+.outdoor{
+     grid-row: 1/2;
+     grid-column: span 1;
+}
+.outdoo{
+     grid-row: 2/2;
+     grid-column: span 1;
 
+}
+.offer > button{
+     margin-left: 1em;
+}
+.offer > h2{
+     width: 5em;
+     color: var(--font-cool);
+     margin-left: 0.5em;
+}
+.off {
+width: 5em;
+color: var(--font-cool);
+margin: 1.5em;
+}
+.off span{
+font-size: 1.5em;
+font-weight: 900;
+}
+.off p{
+     font-size: 1.5em;
+     font-weight: 600;
 
-
+}
+.comfort{
+     width: 13em;
+     padding: 1em;
+     position: absolute;
+     top: 0;
+     right: 0;
+     text-align: left;
+}
+.compot-taitel > p{
+     font-size: 1.1em;
+     color: var(--font-cool);
+}
 /* End Collection section*/
