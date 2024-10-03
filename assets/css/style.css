@@ -1,7 +1,7 @@
 :root {
      --font-cool: #F6F6F6; 
      --primary: #679936;
-     --secondary:#f6f7f7;
+     --secondary:#F4F6F1;
 }
 
 *{
@@ -159,6 +159,7 @@ margin-right: 0.3em;
 /* Collection */
 .Collation{
      width: 100%;
+     margin-bottom: 3em;
      padding:0 0 0 1em ;
      display: grid;
       grid-template-rows: 15em 20em ;
@@ -249,6 +250,9 @@ aspect-ratio: 2/1;
 .offer > button{
      margin-left: 1em;
 }
+.offer > button:hover{
+     background-color: var(--secondary) ;
+}
 .offer > h2{
      width: 5em;
      color: var(--font-cool);
@@ -280,4 +284,161 @@ font-weight: 900;
      font-size: 1.1em;
      color: var(--font-cool);
 }
+.compot-taitel > button:hover{
+     background-color: var(--secondary) ;
+}
 /* End Collection section*/
+
+/* Stard morden */
+.modernDesigne{
+     width: 100%;
+     padding:0.5em 0;
+     background-color: var(--secondary);
+}
+.designeTop{
+     margin: 2.5em 0;
+}
+.designeTop > button{
+     color: #000;
+}
+.any-designe{
+     width: 32%;
+     height: 25em;
+     border-radius: 2em;
+     margin-bottom: 2em;
+     overflow: hidden;
+     position: relative;
+    transition: 0.3s ease-in;
+}
+.any-designe:hover{
+     box-shadow: -3px -3px 10px #777575;
+}
+.any-designe > img{
+     width: 100%;
+     height: 100%;
+     aspect-ratio: 2/1;
+}
+.any-titel{
+     color:var(--font-cool);
+     position: absolute;
+     left: 1em;
+     bottom: 0.5em;
+     /* color: #000; */
+}
+.any-titel > .price{
+     font-size: 2em;
+     font-weight: 900;
+}
+.get-tach{
+     width: 5em;
+     height: 5.5em;
+     position: absolute;
+     bottom: -0.2em;
+     right: 0;
+     padding: 0.5em 0 0 0.5em;
+     border-radius: 1em 0 0 0;
+     border: none;
+     background-color: var(--secondary);
+}
+.get-tach > span{
+     padding: 1.8em 0;
+     background-color: var(--primary);
+     border-radius: 1em;
+}
+
+.get-tach > span:hover{
+     cursor: pointer;
+     background-color: #82c242;
+}
+/* End morden Section */
+
+/* Stard defferents */
+.defferents{
+     width: 100%;
+     padding:  2.5em 0;
+     background-color: var(--secondary);
+}
+.deffrernts-left{
+     width: 55%;
+     border-radius: 1.5em;
+     overflow: hidden;
+}
+.deffrernts-right{
+     width: 38%;
+     text-align: left;
+     
+}
+.deffrernts-right button{
+     color: #000;
+     margin-bottom: 1.5em;
+}
+.deffrernts-right > h2{
+     margin-bottom: 0.5em;
+     font-weight: bold;
+     font-size: 2.5em;
+}
+.deffrernts-right > .knoumore{
+background-color: #000;
+color: var(--font-cool);
+margin: 1em 0 0 0;
+}
+/* End defferents section*/
+
+.cart{
+   width: 20em;
+   height: 23em;
+   margin: 2.5em 0;
+   padding: 1.5em;
+   border-radius: 1.5em;
+   background-color: var(--secondary);  
+}
+.cart img{
+width: 100%;
+height: 9.5em;
+aspect-ratio: 2/1;
+margin-bottom: 1em;
+}
+.cart a{
+     text-decoration: none;
+     color: #000;
+}
+.shopNow{
+     width: 100%;
+     height: 100vh;
+     background-image: url(../image/modern-12.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position-y: center;
+     padding-top:0.1em;
+}
+
+.transfrom-content{
+     width: 25em;
+     margin-top: 5em;
+     color: var(--font-cool);
+}
+.transfrom-content > h2{
+     margin: 1em 0;
+     line-height: 1.5em;
+}
+.transfrom-content > p{
+     font-size: 1.2em;
+     margin-bottom:1em;
+}
+
+.foot{
+     width: 100%;
+     height: 30em;
+     margin-top: 2em;
+     background-color: #011301;
+}
+.footer-contant{
+     width: 10em;
+     border: 1px solid #fff;
+     color: var(--font-cool);
+}
+.footer-contant a{
+     color: var(--font-cool);
+     text-decoration: none;
+     margin-bottom: 1em;
+}
