@@ -402,7 +402,82 @@ nav ul li a:hover {
 }
 
 /* End Collection section*/
-
+/* add card */
+.adtocard{
+     display: grid;
+     place-items: center;
+     position: fixed;
+     right: 0.5em;
+     top: 40%;
+     color: #fff;
+}
+.adtocard > i{
+     position: relative;
+     background-color: var(--primary);
+     border-radius: 30%;
+     padding: 0.7em;
+     font-size: 1.5em;
+     cursor: pointer;
+}
+.prodCount{
+     position: absolute;
+     top: 5px;
+     right: 0.2em;
+     font-size: 0.8em;
+}
+.addcard{
+     width: 0;
+     height:0;
+     visibility: hidden;
+     background-color: var(--secondary);
+     position: fixed;
+     top: 20%;
+     right: 0;
+     border-radius: 5% 0 0 5%;
+     transition: 0.3s ease-in;
+}
+.addcard.show{
+     width: 30em;
+     height: 25em;
+     visibility: visible;
+     color: #000;
+     overflow-y: hidden;
+}
+.card-line p{
+     font-weight: bold;
+}
+.card-line i{
+     cursor: pointer;
+     font-size: 1.3em;
+     color: var(--primary);
+}
+.addcard.show .card-line,.total{
+     width: 90%;
+     margin:0.5em auto;
+     overflow-y: hidden;
+}
+.total .item{
+     margin-bottom: 0.5em;
+}
+.total img{
+     width: 5em;
+     height: 3em;
+     aspect-ratio: 2/1;
+}
+.quntaty i{
+     background-color: #82c242;
+     padding: 0.2em;
+     color: var(--font-cool);
+     cursor: pointer;
+}
+.quntaty>span{
+     margin-inline:1em;
+}
+.trash{
+     color: rgba(235, 128, 128, 0.674);
+     cursor: pointer;
+}
+/* add card */
 /* Stard morden */
 .modernDesigne {
      width: 100%;

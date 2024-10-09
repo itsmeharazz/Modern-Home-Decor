@@ -13,10 +13,22 @@ window.addEventListener('scroll', function () {
 // add seach infdut
 const searchBtn = document.querySelector(".seach");
 const searchBox = document.querySelector(".search-box");
-const close =document.querySelector(".fa-xmark");
+const xmark =document.querySelector(".fa-xmark");
 searchBtn.addEventListener("click", () => {
      searchBox.classList.add("active");
 })
-close .addEventListener('click', ()=>{
+xmark .addEventListener('click', ()=>{
      searchBox.classList.remove("active");
+})
+
+// add to card
+const cardBtn = document.querySelector(".adtocard");
+const addCard = document.querySelector(".addcard");
+const close =document.querySelector(".close");
+
+cardBtn.addEventListener("click", () => {
+     addCard.classList.add("show");
+})
+close .addEventListener('click', ()=>{
+     addCard.classList.remove("show");
 })
