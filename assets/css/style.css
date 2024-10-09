@@ -429,12 +429,13 @@ nav ul li a:hover {
      width: 0;
      height:0;
      visibility: hidden;
-     background-color: var(--secondary);
+     background-color: #fff;
      position: fixed;
      top: 20%;
      right: 0;
      border-radius: 5% 0 0 5%;
-     transition: 0.3s ease-in;
+     transition: 0.2s ease-in;
+     z-index: 99;
 }
 .addcard.show{
      width: 30em;
@@ -478,6 +479,7 @@ nav ul li a:hover {
      cursor: pointer;
 }
 /* add card */
+
 /* Stard morden */
 .modernDesigne {
      width: 100%;
@@ -666,3 +668,5 @@ nav ul li a:hover {
 }
 
 /* footer */
+
+/* Responsive  */
